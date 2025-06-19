@@ -1,0 +1,14 @@
+Project Manager Tələbləri:
+"Hər sifariş göndəriləndə onu sistemdə qeydiyyata almalıyıq.
+Müştərinin ünvanı, məhsulun adı, qiyməti və kuryer şirkəti barədə məlumat .csv formatında saxlanmalıdır.
+Fayl ; ilə ayrılmalıdır.
+Əgər hər hansı məlumat natamamdırsa və ya yanlışdırsa, sistem davam etməli, lakin həmin qeyd daxil edilməməlidir."
+
+Sizdən Tələb Olunan Implementasiya
+ShippingInfo adlı sinif yaradın (ad, ünvan, məhsul, qiymət, şirkət).
+
+Bir neçə göndəriş məlumatı simulasiya edin və kolleksiyasında saxlayın.
+
+Məlumatları shipping_infos.csv faylına yazın (Name;Address;Product;Price;Company başlıq sətiri ilə).
+
+Qiymət mənfi və ya sahələr boş olarsa, xüsusi istisna yaradın (InvalidShippingDataException) və proqramın dayanmasının qarşısını alın.
